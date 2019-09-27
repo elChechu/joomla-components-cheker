@@ -21,8 +21,8 @@ if url != None:
     for i in data:
         if requests.get(url+i) == "200":
             print("[!] Componente: " + i + " Existe")
-            time.sleep(0.5)
+            time.sleep(0.3)
         else:
             print("[-] Componente: " + i + "No existe")
-            time.sleep(0.5)
+            time.sleep(0.6)
 
